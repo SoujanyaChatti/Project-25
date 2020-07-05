@@ -17,19 +17,13 @@ function setup() {
 
 	//Create the Bodies Here.
 	
-
-	
-
 	ground=new Ground(500,620,1000,50);
 	paper=new Paper(50,580,70,70);
-
-	
-	
+	box2=new Ground(777,505,20,180);
+	box3=new Ground(923,505,20,180);
 	box1=createSprite(850,490);
 	box1.addImage(dustbin);
 	box1.scale=0.65;
-	box2=new Ground(777,505,20,180);
-	box3=new Ground(923,505,20,180);
 }
 
 
